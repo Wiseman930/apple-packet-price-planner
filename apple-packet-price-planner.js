@@ -35,15 +35,15 @@ function applePricePlan(){
     }
     function pricePerApple(){
         priceperApple = box/AppleB;
-      return priceperApple;
+      return priceperApple.toFixed(2);
     }
     function pricePerPacket(){
         packetPrice = box/packetNum;
-        return packetPrice;
+        return packetPrice.toFixed(2);
     }
     function recommendPacketPrice(){
         recommend = ((prof/100)*box + box)/packetNum
-        return recommend;
+        return recommend.toFixed(2);
 
     }
     return {
