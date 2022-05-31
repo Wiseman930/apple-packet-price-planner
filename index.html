@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<h1>Apple packet price planner</h1>
+	<div class="columns">
+		<h5>Apple buying data</h5>
+		<div class="one">
+			<label for="exampleEmailInput">Cost price for apple boxes</label>
+			<input class="costForBoxApple" type="number" placeholder="eg. 100.00">
+		</div>
+
+		<div class="two">
+			<label for="exampleEmailInput">Number of apples in the box</label>
+			<input class="appleNumberInBox" type="number" placeholder="eg. 30" >
+		</div>
+
+		<div class="three">
+			<label for="">The packet size apples are sold in</label>
+			<input class="PacketSize" type="number" placeholder="eg. 7" >
+		</div>
+
+		<div class="four">
+			<label for="">required profit</label>
+			<input class="profietNeeded" type="number" placeholder="eg. 45.00" >
+		</div>
+		<button class="Calculate" type="button" name="button">Calculates</button>
+
+	</div>
+	<div class="columns2">
+		<h5>Apple price calculations</h5>
+		<table>
+			<tr>
+                <div class="one">
+			  		<td>Number of packets</td>
+			  		<td><span class="callTotalSettings">0</span> </td>
+				</div>
+			</tr>
+			<tr>
+				<div class="two">
+			  		<td>Cost Price per apple</td>
+			  		<td>R<span class="smsTotalSettings">0.00</span> </td>
+				</div>
+			</tr>
+			<tr>
+				<div class="three">
+			  		<td>Cost price per packet</td>
+			  		<td> R<span class="totalSettings">0.00</span> </td>
+				</div>
+			</tr>
+			<tr>
+				<div class="four">
+					<td>Recommended price packet</td>
+					<td> R<span class="totalSettings">0.00</span> </td>
+				</div>
+			  </tr>
+		  </table>
+
+
+	</div>
+
+
+
+	<script src="apple-packet-price-planner.js" charset="utf-8"></script>
+    <script src="apple-packet-price-planner.dom.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+h1{
+	text-align: center;
+}
+.one{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.two{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.three{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.four{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
